@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+# NuCampSite — React Web Learning Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An early web-development learning project in Archer WhiteDragon’s portfolio. This repository contains a campsite-directory interface built with React and the Create React App scaffold.
 
-## Available Scripts
+## What is in the source
 
-In the project directory, you can run:
+- A home page with featured campsite, promotion, and partner content.
+- A campsite directory and individual campsite-detail routes.
+- About and contact pages, with shared header and footer components.
+- Local sample data for campsites, comments, partners, and promotions.
 
-### `yarn start`
+The app’s main component uses React class components, component state, and React Router. The package manifest also includes Bootstrap, Reactstrap, Redux-related packages, and testing libraries; a listed dependency does not by itself establish that every feature is implemented.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Learning context and credit
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project records my early practice with component-based interfaces, routing, local data, and JavaScript. It follows the NuCampSite learning-project structure and uses Create React App and open-source dependencies. I do not present the course scaffold or third-party libraries as software I invented.
 
-### `yarn test`
+This is a learning application, separate from the current Socia Network venture.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local development
 
-### `yarn build`
+The repository includes a package manifest and an npm lockfile. The defined scripts are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm ci
+npm start
+npm test
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run these commands in a local development checkout. The manifest uses a legacy React 17 / react-scripts 4 toolchain; compatibility and dependency updates may be needed in a current environment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Review status
 
-### `yarn eject`
+The source structure and package scripts were reviewed for this documentation update. The application was not installed, run, or build-tested as part of that review. No current deployment, production readiness, or security certification is claimed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Current profile
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# nucampsite
+- [Archer WhiteDragon — GitHub](https://github.com/ArcherBruceWhiteDragon)
+- [Archer WhiteDragon — main LinkedIn profile](https://www.linkedin.com/in/archerwhitedragon/)
